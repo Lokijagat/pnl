@@ -1,0 +1,18 @@
+# dependencies
+node_modules
+
+# build output
+dist
+
+# env / secrets (sirf .env.example commit hota hai)
+.env
+.env.*
+!.env.example
+
+# logs / OS / editor
+*.log
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea

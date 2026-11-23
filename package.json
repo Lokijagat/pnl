@@ -1,0 +1,12 @@
+{
+  "name": "pnl",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r --parallel --filter ./apps/* dev",
+    "dev:api": "pnpm --filter @pnl/api dev",
+    "dev:web": "pnpm --filter @pnl/web dev",
+    "build": "pnpm -r build",
+    "typecheck": "pnpm -r typecheck"
+  },
+  "engines": { "node": ">=20" }
+}
